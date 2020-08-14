@@ -1,0 +1,22 @@
+.modal-button {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-button > button {
+    width: fit-content;
+    background: #068bf9;
+    font-weight: bolder;
+    color: white;
+}
+.modal-button:hover2 > button {
+    background: #527fc5;
+}
+
+.modal-data {
+    padding: 10px;
+}
+
+.modal-data > h1 {
+    text-align: center;
+}

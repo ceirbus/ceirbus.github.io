@@ -1,0 +1,53 @@
+.table {
+    width: 90vw;
+    max-height: 90vh;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.reset-button {
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    background-color: #068bf9;
+}
+
+.reset-button:hover {
+    background-color: #527fc5;
+}
+
+
+.mat-header-cell {
+    font-size: 14px;
+    text-align: center;
+}
+
+.mat-header-row, .mat-row:nth-child(even) {
+    background: #e6e6ff;
+}
+
+.description-icon-color {
+    color: #068bf9;
+}
+
+.delete-icon-color {
+    color: #fd5d5d;
+}
+
+.unsortable-header {
+    text-align: left;
+}
